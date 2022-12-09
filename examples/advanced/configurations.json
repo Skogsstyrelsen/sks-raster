@@ -1,0 +1,8 @@
+{
+    "example_1": {
+        "apis": ["marktackedata_2_0", "markfuktighet_slu_2_0_KON", "sentinel_2_2_0"]
+    },
+    "template": {
+        "apis": ["selection of ", "datalayer to feed as input data to AI model", "available apis can be found in RestAPIs.py"]
+    }
+}
