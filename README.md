@@ -12,6 +12,8 @@ Skogsstyrelsens öppna rasterdata
 
 ## Syfte
 Skogsstyrelsen erbjuder script och exempelkod för utvecklare som vill använda sig av myndighetens öppna rasterdata för utveckling av sina egna produkter eller tillämpningar. Avsikten är att underlätta nedladdning av råa data, eller data som är ett resultat av en on-the-fly-analys. Dessa data hämtas från Skogsstyrelsens externa bildserver som är byggd på en [ESRI ArcGIS Image Server](https://enterprise.arcgis.com/en/image/latest/get-started/windows/what-is-arcgis-image-server-.htm). Scripten som erbjuds visar exempel på hur anropen kan se ut och hur dessa kan systematiseras för att bli effektiva.
+Var noga med att läsa igenom Skogsstyrelsens [Friskrivning](#friskrivning) nedan. I tillägg till friskrivningen vill vi att användare noterar att snabba svarstider på varje anrop inte kan garanteras. De kan beroende på belastning och komplexitet variera mycket.
+
 
 ## Tillgängligt data
 Skogsstyrelsens öppna tjänster listas under https://www.skogsstyrelsen.se/sjalvservice/karttjanster/geodatatjanster/rest/
@@ -38,8 +40,7 @@ I mappen [examples](./examples) finns python kod som visar hur man kan koppla up
 Skogsstyrelsen friskriver sig från eventuella felaktigheter i kod.
 Skogsstyrelsen friskriver sig från ansvar för fel, förseningar, avbrott eller 
 andra fel eller störningar som kan uppstå i den tekniska driften och därmed i 
-tillgången till Geodataprodukterna, om inte detta beror på grov oaktsamhet 
-från Skogsstyrelsens sida. Skogsstyrelsen tar inte heller något ansvar för fel som 
+tillgången till Geodataprodukterna. Skogsstyrelsen tar inte heller något ansvar för fel som 
 kan uppstå på grund av den teknik eller de programvaror som användaren 
 använder för att få åtkomst till Geodataprodukterna. Skogsstyrelsen friskriver 
 sig också från ansvar för skada eller annan olägenhet som kan uppkomma 
